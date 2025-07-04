@@ -13,7 +13,7 @@ public class lab148 { //Runner class
 
 class mpr { //Class
 
-    //Method Overloading: Same name but different arguments or parameter
+    //Method Overloading: Same name but different arguments or parameter : Compile time polymorphism
     //Method will be OverLoaded
 
     //behaviours >>>

@@ -5,7 +5,7 @@ public class lab151_Dynamic_Dispatch {
         krishna k1 = new krishna();
         k1.home();
 
-        //Dynamic Dispatch / Rutime Polymorphism >>>
+        //Method overriding : Dynamic Dispatch / Rutime Polymorphism
         father f1 = new krishna();
         f1.home();
     }
