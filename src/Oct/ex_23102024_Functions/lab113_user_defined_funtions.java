@@ -12,7 +12,7 @@ public class lab113_user_defined_funtions {
 
         int vote = age_of_vote();
         System.out.println(vote);
-        if (vote == 18){
+        if (vote >= 18){
             System.out.println("allowed");
         }else{
             System.out.println("not allowed");
@@ -32,7 +32,7 @@ public class lab113_user_defined_funtions {
 
     static int age_of_vote (){
             System.out.println("HII I can");
-            return 18;
+            return 17;
     }
      //3. With Parameters and Without Return Type
     static void your_name (String name ) {

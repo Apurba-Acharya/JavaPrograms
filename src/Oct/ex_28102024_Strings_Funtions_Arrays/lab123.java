@@ -24,7 +24,7 @@ public class lab123 {
 
         //Trim >> Space remove
         String s5 = " Pramod ";
-        System.out.println("Trim ->>" + s5.trim());
+        System.out.println("Trim -> " + s5.trim());
 
        //IndexOf
         String s6 = "Pramod";

@@ -6,6 +6,5 @@ public class lab051 {
         boolean b = (10==11);
         System.out.println(a);
         System.out.println(b);
-
     }
 }

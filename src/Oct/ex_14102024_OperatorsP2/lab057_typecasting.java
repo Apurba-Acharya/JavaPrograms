@@ -4,7 +4,7 @@ public class lab057_typecasting {
     public static void main(String[] args) {
     // type casting
     // widening - implicit, explicit - lossless
-    // narrowing - implicit, ecplict(with data type), loss
+    // narrowing - implicit, explicit(with data type), loss
 
         //widening >>
         byte b = 10;
