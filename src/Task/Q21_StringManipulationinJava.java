@@ -25,6 +25,8 @@ public class Q21_StringManipulationinJava {
         String str3 = "The rains have started here SElenium";
         System.out.println("Compaire string without case sensitivity: " + str.equalsIgnoreCase(str3));
 
+        // Substring should start from 1 to till the end...
+        // In substring blank space should also take in valid count.
         System.out.println("Substring: " + str.substring(0,9)); //Substring: Part of a string
 
         //trim & replace:
@@ -38,7 +40,7 @@ public class Q21_StringManipulationinJava {
 
         //Split:
         String test = "Hello_World_Test_Selenium";
-       String testVal [] = test.split("_");
+        String testVal [] = test.split("_");
         for (int i = 0; i < testVal.length; i++) {
             System.out.print(testVal[i]);
             System.out.print(" ");

@@ -2,21 +2,21 @@ package Nov.ex_12112024_SuperKeyword_Abstraction;
 
 public class lab155_Super_Important {   //Runner class
     public static void main(String[] args) {
-        Car c = new Car();
+        child_Car c = new child_Car();
         c.display();
         c.message();
         c.message("Executed");
     }
 
 }
-class Car extends Vehicle{ //Child Car class: Inharitance
+class child_Car extends Parent_Vehicle{ //Child Car class: Inharitance
     private int maxSpeed = 281; //Child Attribute
 
     @Override
     void display() {
         System.out.println("Child");
     }
-    Car(){    //Default constructor
+    child_Car(){    //Default constructor
 
         super(8); //Parent Parametrized constructor calling
         //super(); //Parent default constructor calling
@@ -29,16 +29,16 @@ class Car extends Vehicle{ //Child Car class: Inharitance
     }
 }
 
-class Vehicle{ //Parent class
+class Parent_Vehicle{ //Parent class
     public int maxSpeed = 180; //Attribute
 
     void display (){  //Behaviour
         System.out.println("Parent");
     }
-    Vehicle (){ //default constructor
+    Parent_Vehicle (){ //default constructor
         System.out.println("DC -> Vehicle");
     }
-    Vehicle (int a){ //parameterised constructror
+    Parent_Vehicle (int a){ //parameterised constructror
         System.out.println("PC : Vehicle");
     }
 

@@ -18,7 +18,7 @@ public class Q17_LargestandSmallestNumbersInArray {
                 smalest = numbers[i];
             }
         }
-        System.out.println("given array is: " + Arrays.toString(numbers));
+        System.out.println("Given array is: " + Arrays.toString(numbers));
         System.out.println("Largest number is: " + largest);
         System.out.println("Largest number is: " + smalest);
     }

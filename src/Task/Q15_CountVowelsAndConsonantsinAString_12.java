@@ -12,7 +12,7 @@ public class Q15_CountVowelsAndConsonantsinAString_12 {
 
         //Type 1:
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter any string value: ");
+        System.out.print("Enter any string value (using forLoop): ");
         String string = sc.next();
         int vCount = 0;
         int cCount = 0;
@@ -31,7 +31,8 @@ public class Q15_CountVowelsAndConsonantsinAString_12 {
         System.out.println("******************** End! ******************");
 
         //Type 2: Using HashSet:
-        String str = "progrAAmming";
+        System.out.print("Enter any string value (using HashSet): ");
+        String str = sc.next();
         String s = str.toLowerCase();
         String st [] = s.split(""); // char ch[] = s.toCharArray(); //Using this also possible
 

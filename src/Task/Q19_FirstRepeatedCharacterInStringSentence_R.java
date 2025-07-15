@@ -2,6 +2,8 @@ package Task;
 import java.util.HashSet;
 import java.util.Set;
 
+// First repeated character in a string sentence
+
 public class Q19_FirstRepeatedCharacterInStringSentence_R {
         public static void main(String[] args) {
             String input = "t progxamming nicoter";

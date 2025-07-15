@@ -13,6 +13,6 @@ public class lab201_Lists {
         List fruits = List.of("orange", "apple");
         System.out.println(fruits);
         System.out.println(fruits.get(0));
-//        fruits.add("mango"); //java.lang.UnsupportedOperationException
+        fruits.add("mango"); //java.lang.UnsupportedOperationException
     }
 }
