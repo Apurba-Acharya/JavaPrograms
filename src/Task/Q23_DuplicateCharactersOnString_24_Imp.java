@@ -10,8 +10,8 @@ public class Q23_DuplicateCharactersOnString_24_Imp {
 //    Find duplicate character on a string
 
     public static void main(String[] args) {
-        String st = "seleniums";
-        String str = st.toLowerCase();
+        String st = "selenium JAVA";
+        String str = st.toLowerCase().replace(" ", "");
 
         char arr[] = str.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
