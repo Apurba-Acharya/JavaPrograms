@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Q23_DuplicateCharactersOnString_24 {
+public class Q23_DuplicateCharactersOnString_24_Imp {
 
 //    Find duplicate character on a string
 
@@ -16,7 +16,7 @@ public class Q23_DuplicateCharactersOnString_24 {
         char arr[] = str.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
         for (char c : arr) {  //we can use: for (int i=0, i<arr.length; i++)
-            if (!map.containsKey(c)) { //c r value jode map e aage theke naa thake tahole key = c ; value = 1 dao.
+            if (!map.containsKey(c)) { //c er value jode map e aage theke naa thake tahole key = c ; value = 1 dao.
                 map.put(c, 1);
             } else {
                 map.put(c, map.get(c) + 1);
