@@ -17,7 +17,9 @@ public class Q28_OccuranceOfCharactersInAStringSentence_23 {
             }
         }
         for (char c1 : hm.keySet()){
-            System.out.println(c1 +" - "+hm.get(c1));
+            if (hm.get(c1)>=1) {
+                System.out.println(c1 + " - " + hm.get(c1));
+            }
         }
     }
 }
