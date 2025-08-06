@@ -5,8 +5,7 @@ public class Q30_ReverseEveryWordInSentence_R {
 //    reverse each [every] word in sentence, position should be same
 
     public static void main(String[] args) {
-        String str = "We are learning java";
-        //Answer: eW era gninrael avaj
+        String str = "We are learning java";    // >>Answer: eW era gninrael avaj
 
         //Type 1: Using for loop:
         String words [] = str.split(" "); // split the setence besed on the word

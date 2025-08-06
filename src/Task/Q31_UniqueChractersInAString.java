@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class Q31_UniqueChractersInAString {
 
-    //Find the unique chracters in a string
+    //Find the unique characters in a string
 
     public static void main(String[] args) {
         String str = "aaggttbujj";
@@ -19,9 +19,16 @@ public class Q31_UniqueChractersInAString {
         for (char ch : chrac){
            if (!charCount.containsKey(ch)){
                charCount.put(ch,1);
+           }else{
+               charCount.put(ch, charCount.get(ch)+1);
            }
         }
-        System.out.println("HashMap: " + charCount.keySet());
+        System.out.println("HashMap(single character from the given string): " + charCount.keySet());
+        for (char c : charCount.keySet()){
+            if (charCount.get(c)==1){
+                System.out.println("Only unique character: " + c);
+            }
+        }
 
         //HashSet: T1:
         Set<Character> set = new HashSet<>();
