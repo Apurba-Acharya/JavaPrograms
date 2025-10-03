@@ -5,7 +5,7 @@ public class lab083 {
         char code = 'E';
         switch (code) {
             default:
-                System.out.println("defaukt");
+                System.out.println("default");
                 break;
             case 'A':
                 System.out.println("65");

@@ -7,7 +7,7 @@ public class lab062 {
 
         int a = 5;
         int b = 9;
-        int c = 7;
+        int c = 9;
         int i = (a>=b && a>=c) ? a : (b>=c ? b:c);
         System.out.println("print - " + i);
     }
