@@ -31,7 +31,7 @@ public class Q33_UniqueWordsfromStringSentence_31 {
 //            }
 //        }
 
-            System.out.println();
+        System.out.println();
 
             // Using iterator:
             for (String word : inputArr) {

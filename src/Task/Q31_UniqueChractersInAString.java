@@ -23,12 +23,14 @@ public class Q31_UniqueChractersInAString {
                charCount.put(ch, charCount.get(ch)+1);
            }
         }
-        System.out.println("HashMap(single character from the given string): " + charCount.keySet());
+        System.out.println("HashMap(single characters from the given string): " + charCount.keySet());
+        String wrd = " ";
         for (char c : charCount.keySet()){
             if (charCount.get(c)==1){
-                System.out.println("Only unique character: " + c);
+                wrd = wrd+c + " ";
             }
         }
+        System.out.println("Only unique character: " + wrd);
 
         //HashSet: T1:
         Set<Character> set = new HashSet<>();
