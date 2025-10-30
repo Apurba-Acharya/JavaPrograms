@@ -2,7 +2,11 @@ package InterviewAsked;
 
 public class Q41_PairsInArrayWithGivenSum {
 
-//   Find Pairs in Array with Given Sum
+/*   Find Pairs in Array with Given Sum
+    Output:
+    Pair: 1,7
+    Pair: 2,6
+    Pair: 3,5 */
 
     public static void main(String[] args) {
         int arr[] = {1, 2, 3, 4, 5, 6, 7};
