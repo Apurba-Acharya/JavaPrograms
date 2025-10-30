@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Q43_SecondSmalestNumberinAnArray {
+public class Q43_SecondSmalestNumberinAnArray_R {
 
 //    Find Second Smallest Number in an Array
 
@@ -18,11 +18,17 @@ public class Q43_SecondSmalestNumberinAnArray {
             return;
         }
 
+        /* HashSet:
+        1. Order will not maintain. [* LinkedHashSet will maintain order.]
+        2. Null value is acceptable.
+        3. Duplicate value not acceptable. */
+
         Set <Integer> hs = new HashSet<>();
         for (int i=0; i<n; i++){
             hs.add(arr[i]);
         }
-        Integer uniqueValues [] = hs.toArray(new Integer [hs.size()]);
+        Integer[] hslength = new Integer[hs.size()];
+        Integer uniqueValues [] = hs.toArray(hslength); // this line will convert HashSet to Array
 
         Arrays.sort(uniqueValues, Collections.reverseOrder());
         System.out.println(Arrays.toString(uniqueValues));

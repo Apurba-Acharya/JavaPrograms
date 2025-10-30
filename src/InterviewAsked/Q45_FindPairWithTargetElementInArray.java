@@ -13,7 +13,7 @@ public class Q45_FindPairWithTargetElementInArray {
         for (int i = 0; i < nums1.length; i++) {
             for (int j = i+1; j < nums1.length; j++) {
                 if (nums1[j] == target - nums1[i]){
-                    System.out.println("Indices1: " + i + ", " + j);
+                    System.out.println("Indices 1: " + i + ", " + j);
                     return; // Exit after finding the first valid pair
                 }
             }
