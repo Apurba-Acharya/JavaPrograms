@@ -6,9 +6,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Q31_UniqueChractersInAString {
+public class Q31_nonRepeattingCharacterFromAString_PublicSapient {
 
-    //Find the unique characters in a string
+    //Find the unique characters in a string / Find the nonRepeatting character from a string
 
     public static void main(String[] args) {
         String str = "aaggttbujj";
