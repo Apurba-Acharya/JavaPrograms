@@ -16,7 +16,7 @@ public class lab218_MapP2_Importance {
         m2.put(null, 102);
         m2.put(null, 102); //duplicate key not allowed
 
-        System.out.println("Printing key value pair in string: " + m2);
+        System.out.println("Printing key value pair in string: " + m2); // Order will not maintain
         System.out.println("Printing integer: " + m2.size());
         System.out.println("Boolean 1: " + m2.isEmpty());
         System.out.println("Boolean 2: " + m2.containsKey("id2"));
