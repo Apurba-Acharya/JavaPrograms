@@ -10,6 +10,10 @@ public class lab113_user_defined_funtions {
         //String returned = greet_with();
         //System.out.println(returned);
 
+        int result = addNumbers(10, 20);
+        // Printing the returned value
+        System.out.println("Sum = " + result);
+
         int vote = age_of_vote();
         System.out.println(vote);
         if (vote >= 18){
@@ -37,6 +41,12 @@ public class lab113_user_defined_funtions {
      //3. With Parameters and Without Return Type
     static void your_name (String name ) {
         System.out.println(name);
+    }
+
+    // Method with parameters and return type
+    public static int addNumbers(int a, int b) {
+        int sum = a + b;
+        return sum;
     }
 
 }
