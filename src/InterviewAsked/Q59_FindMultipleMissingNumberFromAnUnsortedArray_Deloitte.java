@@ -2,7 +2,7 @@ package InterviewAsked;
 
 import java.util.HashSet;
 
-public class Q59_FindMultipleMissingNumberFromAnUnsortedArray {
+public class Q59_FindMultipleMissingNumberFromAnUnsortedArray_Deloitte {
     public static void main(String[] args) {
         int arr[] = {9, 4, 6, 3, 8, 2};
         int n = 9;
