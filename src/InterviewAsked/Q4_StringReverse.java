@@ -6,7 +6,7 @@ public class Q4_StringReverse {
 
     public static void main(String[] args) {
 
-        String s  = "Selenium";
+        String s  = "Selenium java";
 
         //1. using for loop >>
         int len = s.length();

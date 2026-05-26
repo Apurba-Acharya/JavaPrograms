@@ -12,8 +12,8 @@ public class lab123 {
         System.out.println(s3);
 
         //Spliting String:
-        String F = "apple,banana,cherry";
-        String [] split = F.split(",");
+        String F = "1 of 50";
+        String [] split = F.split(" ");
         System.out.println(split [0]);
         System.out.println(split [1]);
         System.out.println(split [2]);
@@ -23,7 +23,7 @@ public class lab123 {
         System.out.println(s4.charAt(5));
 
         //Trim >> Space remove
-        String s5 = " Pramod ";
+        String s5 = "             Pramod ";
         System.out.println("Trim -> " + s5.trim());
 
        //IndexOf
@@ -43,7 +43,7 @@ public class lab123 {
         //replace & replaceAll: ***Interview ques ??
         String s9 = "PramoDDutta";
         String s11 = "PramoDDDDutta";
-        System.out.println(s9.replace("D","Z"));
+        System.out.println(s9.replace("D"," "));
         System.out.println(s11.replaceAll("D","Z"));
 
         String Original2 = "Hello123 World456!";
